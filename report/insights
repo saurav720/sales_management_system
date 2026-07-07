@@ -1,0 +1,202 @@
+Sales Management  – Business insight
+
+Based on your data model and the dashboards you shared (Customers, Employees, and Sales Model), here is a professional analysis that you can directly use in your GitHub README and Reports folder.
+
+Step 1: Project Overview
+Project Name
+
+Sales Management Dashboard | Power BI
+
+Objective
+
+The objective of this project is to analyze customer behavior, product performance, employee information, and sales transactions to help management make better business decisions.
+
+The dashboard combines data from multiple tables including:
+
+Customers
+Orders
+Order Details
+Products
+Product Lines
+Employees
+Offices
+Payments
+Step 2: Data Model Insights
+
+The dataset follows a Relational Star/Snowflake Model.
+
+Main Tables
+Table	Purpose
+Customers	Customer Information
+Orders	Order Header
+Order Details	Product Sales
+Products	Product Details
+Product Lines	Product Category
+Employees	Sales Employees
+Offices	Office Locations
+Payments	Customer Payments
+Relationships
+One Customer → Many Orders
+One Order → Many Order Details
+One Product → Many Order Details
+One Product Line → Many Products
+One Office → Many Employees
+One Employee → Many Customers
+One Customer → Many Payments
+
+This structure reduces redundancy and improves reporting performance.
+
+Step 3: Customer Dashboard Insights
+KPI Summary
+Total Customers
+122 Customers
+
+Business Insight
+
+The company currently serves 122 active customers, providing a moderate customer base for sales operations.
+
+States Covered
+19 States
+
+Business Insight
+
+The customer base is distributed across 19 different states, indicating good regional coverage.
+
+Countries Covered
+27 Countries
+
+Business Insight
+
+The company has a strong international presence.
+
+Average Credit Limit
+67.66K
+
+Business Insight
+
+Customers generally have high purchasing capacity, allowing opportunities for premium product sales.
+
+Step 4: Country-wise Customer Distribution
+Observation
+
+USA has the highest number of customers.
+
+Approximate ranking:
+
+USA
+Germany
+France
+Spain
+Australia
+UK
+Business Insight
+
+The company is heavily dependent on the USA market.
+
+Expanding marketing efforts in European and Asian countries could reduce business risk.
+
+Step 5: Product Line Performance
+Quantity Ordered by Product Line
+
+Ranking
+
+Product Line	Performance
+Classic Cars	Highest
+Vintage Cars	High
+Motorcycles	Good
+Planes	Medium
+Trucks & Buses	Medium
+Ships	Low
+Trains	Lowest
+Business Insight
+
+Classic Cars dominate sales volume.
+
+Trains and Ships have relatively low demand and may require promotional campaigns.
+
+Step 6: Customer Spending Analysis
+
+The Average Amount chart shows that only a few customers contribute significantly higher revenue.
+
+Business Insight
+
+Revenue follows the Pareto Principle (80/20 Rule):
+
+A small number of customers generate a large share of sales.
+High-value customers should be retained through loyalty programs and personalized offers.
+Step 7: Product Sales by Customer
+
+The customer-product analysis indicates:
+
+Certain customers consistently purchase Classic Cars.
+Some customers purchase across multiple product categories.
+A few product lines contribute very little revenue.
+Recommendation
+Recommend related products to existing customers (cross-selling).
+Increase visibility for underperforming product lines.
+Identify high-value customers for premium offers.
+Step 8: Employee Dashboard Insights
+KPI
+Total Employees
+23 Employees
+Total Job Titles
+7 Different Roles
+Workforce Structure
+
+The organization includes multiple roles such as:
+
+President
+VP Sales
+Sales Manager
+Sales Representative
+Business Insight
+
+The company has a clear organizational hierarchy supporting international sales operations.
+
+Employee Distribution
+
+Employees are located across multiple countries.
+
+Business Insight
+
+This indicates global sales coverage and localized customer support.
+
+Step 9: Employee Recommendations
+
+Management can improve performance by:
+
+Measuring employee-wise sales
+Tracking customer assignments
+Monitoring regional performance
+Evaluating manager effectiveness
+Measuring sales representative productivity
+Step 10: Business Recommendations
+Customer Strategy
+Focus on retaining high-value customers.
+Introduce customer loyalty programs.
+Increase sales in low-performing countries.
+Product Strategy
+Promote low-selling categories such as Trains and Ships.
+Maintain inventory for Classic Cars due to strong demand.
+Launch bundle offers for medium-performing categories.
+Sales Strategy
+Track employee performance using KPIs.
+Reward top-performing sales representatives.
+Improve sales in regions with lower customer counts.
+Geographic Strategy
+
+Expand marketing efforts in:
+
+Asia
+South America
+Emerging European markets
+
+to reduce dependency on the USA.
+
+Financial Strategy
+
+Use customer credit limits to:
+
+Offer personalized financing options.
+Target premium customers with exclusive products.
+Monitor payment behavior for better cash flow management.
